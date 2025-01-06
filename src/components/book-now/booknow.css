@@ -1,0 +1,57 @@
+.booknow{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.booknow-title{
+    text-align: center;
+}
+
+
+.booknow-container{
+    display: flex;
+}
+
+.booknow-img{
+    width: 50%;
+}
+
+.booknow-img img{
+    width: 100%;
+}
+
+.booknow-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.booknow-form-container{
+    display: flex;
+
+    
+    padding: 5px 30px;
+    border-radius: 10px;
+    box-shadow: 3px 6px 10px 0px rgba(0, 0, 0, 0.171);
+    gap: 1rem;
+   
+}
+
+.booknow-form-btn{
+    background-color: var(--white);
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: var(--black);
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+.booknow-form-btn:hover{
+    background-color: var(--orange);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: var(--white);
+}

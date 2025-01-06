@@ -1,0 +1,94 @@
+
+.aboutus{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.aboutus-content{
+    width: 50%;
+    padding: 30px;
+}
+
+.aboutus-title-main{
+    color: var(--orange);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.aboutus-title{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.aboutus-description{
+    color: var(--grey);
+    width: 100%;
+}
+.aboutus-percentage{
+    width: 50%;
+    padding: 30px;
+    
+}
+
+.aboutus-percentage-container{
+    
+    margin: 2rem 0;
+}
+
+.aboutus-percentage-title-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutus-percentage-number{
+    margin: 0;
+    padding: 0;
+    color: var(--orange);
+}
+
+.aboutus-percentage-title{
+    margin: 0;
+    padding: 0;
+}
+
+
+.aboutus-percentage-bar{
+    width: 100%;
+    position: relative;
+}
+
+.aboutus-percentage-bar-fill-back{
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    z-index: 1;
+
+}
+
+.aboutus-percentage-bar-fill-front{
+    position: absolute;
+    height: 10px;
+    width: 80%;
+    background-color: var(--orange);
+    z-index: 2;
+}
+
