@@ -1,0 +1,113 @@
+.testimonials {
+    background-color: #f8faff;
+    height: 100vh;
+   
+    padding: 1rem 1rem 15rem 1rem;
+    text-align: center;
+}
+
+.testimonials-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    row-gap: 5rem; /* Add vertical space between rows */
+    column-gap: 2rem; /* Add horizontal space between columns */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    height: 100%; /* Maintain consistent card height */
+}
+
+/* Add staggered effect for cards in each row */
+.testimonial-card:nth-child(2),
+.testimonial-card:nth-child(5) {
+    transform: translateY(20px); /* Slightly lower the 2nd cards in each row */
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05); /* Smooth scaling effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Ensure staggered cards hover correctly */
+.testimonial-card:nth-child(2):hover,
+.testimonial-card:nth-child(5):hover {
+    transform: translateY(20px) scale(1.05); /* Keep offset while hovering */
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonial-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-name {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+    margin: 0;
+}
+
+.testimonial-position {
+    font-size: 0.875rem;
+    color: #777;
+    margin: 0;
+}
+
+/* .testimonials {
+    margin-bottom: 5rem;
+} */
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+        row-gap: 2rem; /* Adjust vertical gap for smaller screens */
+        column-gap: 1.5rem; /* Adjust horizontal gap for smaller screens */
+    }
+
+    .testimonial-card:nth-child(2),
+    .testimonial-card:nth-child(5) {
+        transform: translateY(0); /* Remove staggered effect for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonials-grid {
+        grid-template-columns: 1fr; /* 1 card per row */
+    }
+
+    .testimonial-card:nth-child(2),
+    .testimonial-card:nth-child(5) {
+        transform: translateY(0); /* Remove staggered effect for very small screens */
+    }
+}

@@ -1,0 +1,172 @@
+.whyus {
+    width: 100%;
+    margin: 5rem 0;
+    background-color: #ffffff;
+}
+
+.whyus-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+}
+
+.whyus-left {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.whyus-icon {
+    display: flex;
+}
+
+.whyus-icon img {
+    width: 70%;
+}
+
+.whyus-button {
+    background-color: var(--orange);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: -1rem;
+}
+
+.whyus-right {
+    flex: 1;
+    text-align: left;
+}
+
+.whyus-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.whyus-divider {
+    width: 90%;
+    margin: 3rem auto;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.whyus-features {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap; /* Enables wrapping for responsive layout */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.whyus-feature {
+    flex: 1;
+    max-width: 250px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.whyus-feature img {
+    width: 50px;
+    height: 50px;
+}
+
+.whyus-feature h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.whyus-feature p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* === RESPONSIVE STYLES === */
+
+/* For tablets and small desktops */
+@media screen and (max-width: 992px) {
+    .whyus-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .whyus-left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .whyus-icon img {
+        width: 50%;
+    }
+
+    .whyus-right {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    .whyus {
+        padding: 2rem 1rem;
+    }
+
+    .whyus-divider {
+        width: 100%;
+    }
+
+    .whyus-features {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .whyus-feature {
+        max-width: 100%;
+        padding: 0.5rem;
+    }
+
+    .whyus-feature img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .whyus-feature h3 {
+        font-size: 1rem;
+    }
+
+    .whyus-feature p {
+        font-size: 0.8rem;
+    }
+}
+
+/* For very small screens (e.g., phones) */
+@media screen and (max-width: 576px) {
+    .whyus-button {
+        font-size: 0.9rem;
+        padding: 0.8rem 1rem;
+    }
+
+    .whyus-description {
+        font-size: 0.9rem;
+    }
+
+    .whyus-feature h3 {
+        font-size: 1rem;
+    }
+
+    .whyus-feature p {
+        font-size: 0.75rem;
+    }
+}
