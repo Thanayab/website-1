@@ -1,57 +1,201 @@
-.booknow{
+.booknow {
     width: 100%;
-    height: 100vh;
-    
+    padding: 2rem 0;
+    background-color: #fff;
 }
 
+.booknow-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2rem;
+}
 
-.booknow-title{
+.booknow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.booknow-img {
+    width: 50%;
+    flex: 1;
+}
+
+.booknow-img img {
+    width: 100%;
+
+}
+
+.booknow-form {
+    width: 40%;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+}
+
+.booknow-form-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.booknow-form-btn {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.booknow-form-btn.active,
+.booknow-form-btn:hover {
+    background-color: var(--orange);
+    color: #fff;
+    border: none;
+}
+
+.booknow-form-fields {
+    margin-top: 1rem;
+}
+
+.booknow-field {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensure inputs don't overflow */
+}
+
+.booknow-date-time {
+    display: flex;
+    gap: 1rem;
+}
+
+.booknow-submit-btn {
+    background-color: var(--orange);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+    display: block;
     text-align: center;
 }
 
-
-.booknow-container{
-    display: flex;
+.booknow-submit-btn:hover {
+    background-color: darkorange;
 }
 
-.booknow-img{
-    width: 50%;
+.booknow-date-time .booknow-field {
+    width: 48%; /* Reduce width to avoid overflow */
 }
 
-.booknow-img img{
-    width: 100%;
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -0.75rem;
+    margin-bottom: 1rem;
 }
 
-.booknow-form{
-    display: flex;
-    flex-direction: column;
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .booknow-container {
+        flex-direction: column; /* Stack the form and image vertically */
+        gap: 1rem;
+    }
+
+    .booknow-img,
+    .booknow-form {
+        width: 100%;
+        flex: none; /* Prevent resizing */
+    }
+
+    .booknow-form {
+        padding: 1.5rem; /* Adjust padding for smaller screens */
+    }
 }
 
-.booknow-form-container{
-    display: flex;
+@media (max-width: 768px) {
+    .booknow-title {
+        font-size: 1.5rem; /* Reduce font size on smaller screens */
+    }
 
-    
-    padding: 5px 30px;
-    border-radius: 10px;
-    box-shadow: 3px 6px 10px 0px rgba(0, 0, 0, 0.171);
-    gap: 1rem;
-   
+    .booknow-form {
+        padding: 1rem;
+    }
+
+    .booknow-form-btn {
+        font-size: 0.85rem; /* Adjust font size for smaller screens */
+    }
+
+    .booknow-field {
+        font-size: 0.9rem; /* Adjust input font size */
+    }
+
+    .booknow-submit-btn {
+        padding: 0.8rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .booknow-date-time {
+        flex-direction: column; /* Stack date and time inputs vertically */
+    }
+
+    .booknow-date-time .booknow-field {
+        width: 100%; /* Make date and time inputs take full width */
+        margin-bottom: 0.8rem;
+    }
 }
 
-.booknow-form-btn{
-    background-color: var(--white);
-    border: none;
-    padding: 15px 20px;
-    border-radius: 10px;
-    color: var(--black);
-    transition: all 0.3s ease-in-out;
-    text-transform: uppercase;
-    font-size: .7rem;
-}
-.booknow-form-btn:hover{
-    background-color: var(--orange);
-    border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: var(--white);
+@media (max-width: 480px) {
+    .booknow-title {
+        font-size: 1.3rem; /* Reduce font size even more for very small screens */
+    }
+
+    .booknow-form {
+        padding: 1rem;
+    }
+
+    .booknow-form-btn {
+        font-size: 0.8rem;
+    }
+
+    .booknow-field {
+        font-size: 0.85rem;
+    }
+
+    .booknow-submit-btn {
+        padding: 0.7rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    .booknow-date-time {
+        flex-direction: column;
+    }
+
+    .booknow-date-time .booknow-field {
+        width: 100%;
+        margin-bottom: 0.8rem;
+    }
 }

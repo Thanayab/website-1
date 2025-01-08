@@ -5,7 +5,7 @@ function Footer() {
         <div className="footer">
             <div className="footer-container">
                 <div className="footer-logo">
-                    <h1 className="footer-main-title">TraviCabs</h1>
+                    <h2 className="footer-main-title">Ashlesha Cabs</h2>
                     <p className="footer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
 
                     <div className="footer-social">
@@ -20,7 +20,7 @@ function Footer() {
 
 
                 <div className="footer-content">
-                    <h1 className="footer-title-others">About</h1>
+                    <h2 className="footer-title-others">About</h2>
                     <div className="footer-title-others-list">
                         <ul>
                             <li><a href="#">About Us</a></li>
@@ -31,7 +31,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-content">
-                    <h1 className="footer-title-others">Support</h1>
+                    <h2 className="footer-title-others">Support</h2>
                     <div className="footer-title-others-list">
                         <ul>
                             <li><a href="#">About Us</a></li>
@@ -42,7 +42,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-content">
-                    <h1 className="footer-title-others">Faq</h1>
+                    <h2 className="footer-title-others">Faq</h2>
                     <div className="footer-title-others-list">
                         <ul>
                             <li><a href="#">About Us</a></li>

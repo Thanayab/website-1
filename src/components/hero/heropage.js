@@ -7,9 +7,7 @@ function Hero() {
             <div className="hero-container">
                 <div className="hero-content">
                     <div className="hero-content-1">
-                        <h1 
-                        
-                        className="hero-title">Transparent. Safe. <span>Reliable</span></h1>
+                        <h1 className="hero-title">Transparent. Safe. <span>Reliable</span></h1>
                         <p className="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
                     </div>
 
@@ -19,7 +17,7 @@ function Hero() {
                             <input type="text" placeholder="Pickup Location" />
                         </div>
                         <div className="hero-drop">
-                        <img src="/icon/MapPinLine.png" alt="marker" />
+                            <img src="/icon/MapPinLine.png" alt="marker" />
                             <input type="text" placeholder="Drop Location" />
                         </div>
                         <div className="hero-time">
@@ -30,7 +28,6 @@ function Hero() {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }

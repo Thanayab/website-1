@@ -92,3 +92,22 @@
     z-index: 2;
 }
 
+
+
+@media (max-width: 768px) {
+.aboutus-container{
+    flex-direction: column;
+}
+
+.aboutus-content{
+    width: 90%;
+    padding: 0;
+    /* padding: 0 2rem; */
+}
+
+.aboutus-percentage{
+    width: 90%;
+    padding: 0;
+}
+
+}

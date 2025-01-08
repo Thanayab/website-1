@@ -1,0 +1,125 @@
+.places-container {
+    /* width: 100%; */
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.places-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 3rem;
+    /* text-transform: uppercase; */
+}
+
+.places-filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.places-filter-button {
+    background-color: #fff;
+    border: 1px solid var(--orange);
+    color: var(--orange);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.places-filter-button:hover {
+    background-color: var(--orange);
+    color: #fff;
+}
+
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+.place-card {
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.place-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.place-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.place-info {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.place-name {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.place-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.place-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.place-read-more,
+.place-map-link {
+    color: var(--orange);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.place-read-more:hover,
+.place-map-link:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 768px) {
+    .places-filters{
+        flex-wrap: wrap;
+    }
+
+    .places-container{
+        padding: 0;
+    }
+
+    .places-title{
+        font-size: 2rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+    }
+}

@@ -9,6 +9,8 @@ import Footer from '../../components/footer/footer';
 import Aboutus from '../../components/about-us/aboutus';
 import Whyus from '../../components/why-us/whyus';
 import Testimonials from '../../components/testimonials/testimonials';
+import Gallery from '../../components/gallery/gallery';
+import PlacesToVisit from '../../components/places-to-visit/PlacesToVisit';
 
 const Homepage = () => {
     return (
@@ -19,6 +21,8 @@ const Homepage = () => {
             <Booknow />
             <Aboutus />
             <Whyus />
+            <Gallery   />
+            <PlacesToVisit />
             <Testimonials />
             <Footer />
        

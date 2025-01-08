@@ -116,10 +116,10 @@
     }
 }
 
-/* For mobile devices */
+
 @media screen and (max-width: 768px) {
     .whyus {
-        padding: 2rem 1rem;
+        padding: 0;
     }
 
     .whyus-divider {
@@ -151,7 +151,7 @@
     }
 }
 
-/* For very small screens (e.g., phones) */
+
 @media screen and (max-width: 576px) {
     .whyus-button {
         font-size: 0.9rem;
