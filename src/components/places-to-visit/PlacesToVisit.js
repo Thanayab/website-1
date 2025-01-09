@@ -9,7 +9,7 @@ const PlacesToVisit = () => {
             name: "Kukke Subramanya",
             description: "A sacred pilgrimage site, renowned for its temple dedicated to Lord Subramanya and nestled amidst the Western Ghats.",
             category: "Temple",
-            mapLink: "https://goo.gl/maps/EiffelTower",
+            mapLink: "https://maps.app.goo.gl/c2R2FsmabeRdrHg89",
             readMoreLink: "https://en.wikipedia.org/wiki/Kukke_Subramanya_Temple",
         },
         {
@@ -18,7 +18,7 @@ const PlacesToVisit = () => {
             name: "Madikeri",
             description: "A charming hill station in Coorg, famous for its lush greenery, coffee plantations, and stunning viewpoints.",
             category: "Nature",
-            mapLink: "https://goo.gl/maps/GrandCanyon",
+            mapLink: "https://maps.app.goo.gl/yfFAinDUSiY6dXkA8",
             readMoreLink: "https://en.wikipedia.org/wiki/Madikeri",
         },
         {
@@ -27,7 +27,7 @@ const PlacesToVisit = () => {
             name: "Manglore",
             description: "A bustling coastal city known for its beaches, temples, and unique blend of traditions and modernity.",
             category: "Beaches",
-            mapLink: "https://goo.gl/maps/Santorini",
+            mapLink: "https://maps.app.goo.gl/brcq5QxniWDA1Lbo9",
             readMoreLink: "https://en.wikipedia.org/wiki/Mangalore",
         },
         {
@@ -36,7 +36,7 @@ const PlacesToVisit = () => {
             name: "Dharmastala",
             description: "A spiritual hub celebrated for the Dharmasthala Temple, dedicated to Lord Manjunatha, and its charitable services.",
             category: "Temple",
-            mapLink: "https://goo.gl/maps/GreatWall",
+            mapLink: "https://maps.app.goo.gl/E3wd9dpx9cLGNw7Q6",
             readMoreLink: "https://en.wikipedia.org/wiki/Dharmasthala",
         },
         {
@@ -45,7 +45,7 @@ const PlacesToVisit = () => {
             name: "Udupi",
             description: "A temple town famous for the Sri Krishna Matha, pristine beaches, and delicious Udupi cuisine.",
             category: ["Temple","Beaches"],
-            mapLink: "https://goo.gl/maps/MachuPicchu",
+            mapLink: "https://maps.app.goo.gl/qvzhQ9Z9ofvTHRkK9",
             readMoreLink: "https://en.wikipedia.org/wiki/Udupi",
         },
         {
@@ -54,7 +54,7 @@ const PlacesToVisit = () => {
             name: "Murudeshwara",
             description: "Home to the iconic Lord Shiva statue and a serene beachside temple offering breathtaking ocean views.",
             category: ["Temple","Beaches"],
-            mapLink: "https://goo.gl/maps/Dubai",
+            mapLink: "https://maps.app.goo.gl/vDSe7s5ejhoqnbfE7",
             readMoreLink: "https://en.wikipedia.org/wiki/Murdeshwar",
         },
         {
@@ -63,7 +63,7 @@ const PlacesToVisit = () => {
             name: "Mysore",
             description: "The cultural capital of Karnataka, known for its royal heritage, palaces, and vibrant Dasara festival.",
             category: "Historical",
-            mapLink: "https://goo.gl/maps/Dubai",
+            mapLink: "https://maps.app.goo.gl/h223f1z5T5JfQvLi9",
             readMoreLink: "https://en.wikipedia.org/wiki/Mysore",
         },
         {
@@ -72,16 +72,16 @@ const PlacesToVisit = () => {
             name: "Tirupati",
             description: "A world-famous pilgrimage destination housing the sacred Tirumala Venkateswara Temple in Andhra Pradesh.",
             category: "Temple",
-            mapLink: "https://goo.gl/maps/Dubai",
+            mapLink: "https://maps.app.goo.gl/3U9nhuQauNjaFefj6",
             readMoreLink: "https://en.wikipedia.org/wiki/Tirupati",
         },
         {
             id: 9,
             image: "https://subramanyacabservice.in/images/places/shringeri.jpg",
-            name: "Shringeri",
+            name: "Sringeri",
             description: "A serene town revered for the Sharada Peetham and its rich spiritual and cultural heritage.",
             category: "Temple",
-            mapLink: "https://goo.gl/maps/Dubai",
+            mapLink: "https://maps.app.goo.gl/f71ADTtFoSyeeUg8A",
             readMoreLink: "https://en.wikipedia.org/wiki/Sringeri",
         },
     ];

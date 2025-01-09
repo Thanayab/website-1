@@ -166,6 +166,10 @@
         width: 100%; /* Make date and time inputs take full width */
         margin-bottom: 0.8rem;
     }
+
+    .booknow-form{
+        width: 90%;
+    }
 }
 
 @media (max-width: 480px) {
