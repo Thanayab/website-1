@@ -8,7 +8,7 @@ function Hero() {
                 <div className="hero-content">
                     <div className="hero-content-1">
                         <h1 className="hero-title">Transparent. Safe. <span>Reliable</span></h1>
-                        <p className="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+                        <p className="hero-description">Experience hassle-free booking, transparent pricing, and personalized travel solutions tailored to your needs. Let Ashlesha Cabs make every trip memorable. Your destination is just a ride away with us!</p>
                     </div>
 
                     <div className="hero-book-now">

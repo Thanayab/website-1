@@ -10,8 +10,8 @@ function Footer() {
 
                     <div className="footer-social">
                         <ul>
-                            <li><img src="/icon/phone.png" alt="facebook" /><a href="#">123456789</a></li>
-                            <li><img src="/icon/mail.png" alt="facebook" /><a href="#">demo@gmail.com</a></li>
+                            <li><img src="/icon/phone.png" alt="facebook" /><a href="#">+91 9741494230, +91 8310311913</a></li>
+                            <li><img src="/icon/mail.png" alt="facebook" /><a href="#">dineshkalleri85@gmail.com</a></li>
                             <li>
                             <img src="/icon/loc.png" alt="facebook" /><a href="#">subramanya</a></li>
                         </ul>
@@ -56,7 +56,7 @@ function Footer() {
             </div>
 
             <div className="footer-copyright">
-                <p>Copyright &copy; 2025 Paperlight Tech</p>
+                <p>Copyright &copy; 2025 Ashlesha Cabs || Designed & Developed by PAPERLIGHT TECH</p>
             </div>
         </div>
     );

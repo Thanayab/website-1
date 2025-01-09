@@ -15,7 +15,7 @@ function Aboutus() {
                 <div className="aboutus-content">
                     <h4 className="aboutus-title-main">About Us</h4>
                     <h2 className="aboutus-title">Empowering Your Travel Experience with Us</h2>
-                    <p className="aboutus-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+                    <p className="aboutus-description">Welcome to Ashlesha Cabs, your trusted partner for safe, reliable, and comfortable travel. Based in the sacred town of Subramanya, we are proud to be one of the top-rated cab services in Kukke Subramanya. Whether you're planning a local trip, an outstation journey, or seeking curated package plans, we’ve got you covered..</p>
                 </div>
 
                 <div className="aboutus-percentage">

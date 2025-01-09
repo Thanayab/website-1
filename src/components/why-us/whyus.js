@@ -13,7 +13,7 @@ function Whyus() {
                 </div>
                 <div className="whyus-right">
                     <p className="whyus-description">
-                        Sem nulla dignissim arcu semper tempus turpis. Amet risus id nunc augue. Suscipit dictum mauris sed nulla.
+                    Ashlesha Cabs offers reliable, safe, and comfortable rides with professional drivers and well-maintained vehicles. Our transparent pricing and tailored travel packages ensure an affordable and seamless experience.
                     </p>
                 </div>
             </div>
@@ -24,22 +24,22 @@ function Whyus() {
                 <div className="whyus-feature">
                     <img src="/icon/taxi.png" alt="Reliable Service" />
                     <h3>Reliable Service</h3>
-                    <p>Adipiscing turpis sed faucibus magna at sit tincidunt. Non.</p>
+                    <p>Timely pickups and drop-offs with consistent and dependable travel solutions.</p>
                 </div>
                 <div className="whyus-feature">
                     <img src="/icon/safety-belt.png" alt="Safety First" />
                     <h3>Safety First</h3>
-                    <p>Adipiscing turpis sed faucibus magna at sit tincidunt. Non.</p>
+                    <p>Your safety is our top priority, with well-maintained vehicles and secure rides.</p>
                 </div>
                 <div className="whyus-feature">
                     <img src="/icon/repair-tools.png" alt="User-Friendly App" />
                     <h3>User-Friendly App</h3>
-                    <p>Adipiscing turpis sed faucibus magna at sit tincidunt. Non.</p>
+                    <p>Easily book rides and manage trips with our intuitive and hassle-free app.</p>
                 </div>
                 <div className="whyus-feature">
                     <img src="/icon/Steering-wheel.png" alt="Professional Drivers" />
                     <h3>Professional Drivers</h3>
-                    <p>Adipiscing turpis sed faucibus magna at sit tincidunt. Non.</p>
+                    <p>Experienced, courteous drivers ensuring a smooth and comfortable journey.</p>
                 </div>
             </div>
         </div>
