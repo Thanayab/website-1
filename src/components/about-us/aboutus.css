@@ -38,6 +38,7 @@
 .aboutus-description{
     color: var(--grey);
     width: 100%;
+    text-align: justify;
 }
 .aboutus-percentage{
     width: 50%;
