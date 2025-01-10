@@ -6,52 +6,51 @@ function Footer() {
             <div className="footer-container">
                 <div className="footer-logo">
                     <h2 className="footer-main-title">Ashlesha Cabs</h2>
-                    <p className="footer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+                    <p className="footer-description">Let Ashlesha Cabs make every trip memorable. Your destination is just a ride away with us!</p>
 
                     <div className="footer-social">
                         <ul>
-                            <li><img src="/icon/phone.png" alt="facebook" /><a href="#">+91 9741494230, +91 8310311913</a></li>
-                            <li><img src="/icon/mail.png" alt="facebook" /><a href="#">dineshkalleri85@gmail.com</a></li>
+                            <li><img src="/icon/phone.png" alt="phone number" /><a >+91 9741494230, +91 8310311913</a></li>
+                            <li><img src="/icon/mail.png" alt="mail" /><a >dineshkalleri85@gmail.com</a></li>
                             <li>
-                            <img src="/icon/loc.png" alt="facebook" /><a href="#">subramanya</a></li>
+                            <img src="/icon/loc.png" alt="map" /><a >Kukke Subrahmanya, Kadaba Taluk, D. K, 574 238</a></li>
                         </ul>
                     </div>
                 </div>
 
 
                 <div className="footer-content">
-                    <h2 className="footer-title-others">About</h2>
+                    <h2 className="footer-title-others">Pickup Locations</h2>
                     <div className="footer-title-others-list">
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a >Kukke Subrahmanya</a></li>
+                            <li><a >Mangalore Airport</a></li>
+                            <li><a >Railway Station</a></li>
+                            <li><a >Madikeri</a></li>
+                            <li><a >Sullia</a></li>
+                            <li><a >Puttur</a></li>
+                            <li><a >Dharmastala</a></li>
+                            <li><a >Mangalore City</a></li>
+                            <li><a >Bangalore Airport</a></li>
+                            <li><a >AND MANY MORE....</a></li>
+                            
                         </ul>
                     </div>
                 </div>
-                <div className="footer-content">
-                    <h2 className="footer-title-others">Support</h2>
+                <div className="footer-content quick-links">
+                    <h2 className="footer-title-others">Quick Links</h2>
                     <div className="footer-title-others-list">
                         <ul>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Book Now</a></li>
                             <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Cars</a></li>
+                            <li><a href="#">Places To Visit</a></li>
+                            
                         </ul>
                     </div>
                 </div>
-                <div className="footer-content">
-                    <h2 className="footer-title-others">Faq</h2>
-                    <div className="footer-title-others-list">
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Condition</a></li>
-                        </ul>
-                    </div>
-                </div>
+               
 
             </div>
 

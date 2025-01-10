@@ -20,8 +20,8 @@ function Header() {
                     <li><a href="#services">Services</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#contact">Contact</a></li>
+                <button href="tel:7259313854" className="book-now">Call Now</button>
                 </ul>
-                <button className="book-now">Book Now</button>
             </nav>
             <div className={`hamburger ${isMenuOpen ? "open" : ""}`} onClick={toggleMenu}>
                 <span className="bar"></span>

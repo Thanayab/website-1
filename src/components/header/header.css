@@ -65,6 +65,10 @@
   padding: 12px 20px;
   font-size: .8rem;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.book-now:hover{
+  background-color: #d95b00;
 }
 
 .hamburger {
@@ -101,9 +105,9 @@
       align-items: center;
   }
 
-  .book-now{
+  /* .book-now{
     display: none;
-  }
+  } */
 
   .nav-links.open {
       display: block;

@@ -185,4 +185,8 @@
         font-size: .7rem;
         padding: 15px 0;
     }
+
+    .quick-links{
+        display: none;
+    }
 }
